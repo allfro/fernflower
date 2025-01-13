@@ -6,6 +6,9 @@ compileJava {
   targetCompatibility '17'
 }
 
+group = 'org.jetbrains'
+version = '1.0-SNAPSHOT'
+
 sourceSets {
   main.java.srcDirs 'src'
   test.java.srcDirs 'test'
